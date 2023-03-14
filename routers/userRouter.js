@@ -37,3 +37,5 @@ mongoose.connect("mongodb+srv://Drago:Coderhouse123@cluster0.gsvnnyg.mongodb.net
 		console.log("error", error);
 	}
 });
+
+module.exports.userRouter = userRouter;
